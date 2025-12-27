@@ -1,0 +1,73 @@
+# ================================
+# Operating System
+# ================================
+.DS_Store
+Thumbs.db
+
+# ================================
+# Python / Jupyter
+# ================================
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+.python-version
+
+# ================================
+# Virtual Environments
+# ================================
+venv/
+.env/
+.envrc
+
+# ================================
+# Data (RAW & PROCESSED)
+# ================================
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# ================================
+# Models & Artifacts
+# ================================
+models/*
+!models/.gitkeep
+
+*.pkl
+*.joblib
+*.h5
+*.keras
+
+# ================================
+# Reports & Outputs
+# ================================
+reports/figures/*
+reports/metrics/*
+!reports/figures/.gitkeep
+!reports/metrics/.gitkeep
+
+# ================================
+# Logs
+# ================================
+*.log
+
+# ================================
+# IDE / Editor
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ================================
+# Experiment Tracking (optional)
+# ================================
+mlruns/
+wandb/
+
+# ================================
+# OS / Misc
+# ================================
+*.tmp
+*.bak
