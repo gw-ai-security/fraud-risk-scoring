@@ -40,6 +40,7 @@ The data is intentionally anonymized, reflecting real-world privacy constraints.
 
 ## Project Structure
 
+```bash
 fraud-risk-scoring/
 ├── data/
 │   ├── raw/                 # Original dataset (not versioned)
@@ -67,6 +68,7 @@ fraud-risk-scoring/
 │   └── decision_log.md
 │
 └── README.md
+```
 
 
 
